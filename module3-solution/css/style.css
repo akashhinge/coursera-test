@@ -1,0 +1,87 @@
+/* style.css */
+
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.navbar-brand h1 { 
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list{
+	border: 2px;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	font-size: 1.3em;
+	background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+
+section{
+  background-color: #808080;
+  border-radius: 0;
+  padding:20px;
+  margin: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#000000;
+}
+
+section div
+{
+  text-align: left;
+}
+@media (min-width: 1200px) {
+	.navbar-brand {
+  	padding-top: 10px;
+  	padding-left: 0px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-brand {
+  	padding-top: 10px;
+  	padding-left: 5px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.navbar-brand {
+  	padding-top: 10px;
+  	padding-left: 5px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-brand {
+  	padding-top: 10px;
+  	padding-left: 20px;
+	}
+}
